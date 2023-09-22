@@ -25,7 +25,7 @@ public class MathUtil {
         if(n == 0 || n == 1) return 1;
         
         //sống sót đến đây, sure n = 2..20!
-        long product = 1; //biến cộng dồn. acc/accumulation
+        long product = 10; //biến cộng dồn. acc/accumulation
         for (int i = 2; i <= n; i++) 
             product *= i;
         
